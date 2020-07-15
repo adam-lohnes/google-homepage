@@ -1,6 +1,6 @@
 # GOOGLE HOMEPAGE RECREATION
 
-This is the first big project assignment for **The Odin Project!**
+### This is the first big project assignment for **The Odin Project!**
 ==============================================================
 
 Here is the basic overview, copied from [the project page](https://www.theodinproject.com/courses/web-development-101/lessons/html-css):
