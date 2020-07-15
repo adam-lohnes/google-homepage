@@ -48,7 +48,7 @@ button {
 }
 
 #grid {
-	background-image: url("img_sheet.png");
+	background-image: url("img/img_sheet.png");
 	background-position: -125px -38px;
 	width: 30px;
 	height: 30px;
