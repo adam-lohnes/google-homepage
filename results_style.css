@@ -10,7 +10,7 @@ body {
 }
 
 header {	
-	margin-top: 6px;
+	margin-top: 18px;
 }
 
 footer {
@@ -28,10 +28,7 @@ header div {
 	display: inline-block;
 }
 
-a {
-	color: #1a0dab;
-	text-decoration: none;
-}
+/* ---------------------TO BE SORTED (LEGACY?)--------------------- */
 
 button {
 	background-color: #f2f2f2;
@@ -64,14 +61,6 @@ button {
 	align-items: center;
 }
 
-#top-left {
-    height: 52px;
-    display: flex;
-    align-items: center;
-    padding: 0 21px;
-    opacity: 0.75;
-}
-
 #bottom-left {
 	padding: 0 21px;
 }
@@ -84,38 +73,159 @@ button {
 	padding: 0 11px;
 }
 
-#main-content {
-	padding-top: 192px;
-	text-align: center;
+/* ---------------------TOP SECTIONS--------------------- */
+
+#top-left {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding: 0 21px;
+    opacity: 0.75;
 }
 
-#main-content input {
-	border: 0;
-	width: 387px;
-	height: 34px;
-	margin-bottom: 2px;
+#top-center {
+	padding-left: 26px;
+	padding-top: 2px;
 }
 
-#results {
-	width: 652px;
-	margin-left: 180px;
+#top-right {
+	padding-right: 12px;
 }
 
 #search-bar {
 	display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 	border: 1px solid #dfe1e5;
 	border-radius: 24px;
 	height: 44px;
-	width: 482px;
-	margin: auto;
-	margin-top: 24px;
+	width: 690px;
 }
 
-#covid-message {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+#search-bar input {
+	border: 0;
+	color: rgb(34, 34, 34);
+	font-size: 16px;
+	width: 533px;
+	height: 39px;
+	margin-left: 18px;
 }
+
+#search-bar img {
+	padding: 0px 7px;
+}
+
+#search-pipe {
+	height: 27px;
+	width: 1px;
+	background-color: #dfe1e5;
+	margin-left: 6px;
+}
+
+#nav-tabs {
+	display: flex;
+    align-items: flex-end;
+    justify-content: left;
+	height: 52px;
+	width: 100%;
+	padding-left: 169px;
+	border-bottom: 1px solid #dfe1e5;
+}
+
+.nav-tab {
+	background-repeat: no-repeat;
+	color: rgb(102, 102, 102);
+	font-size: 13px;
+	padding: 12px 12px 12px 32px;
+	height: 16px;
+}
+
+.active-nav {
+	background-image: url("img/nav/nav-all.png");
+	background-position: 8px 6px;
+	padding-bottom: 9px;
+	border-bottom: 3px solid #1A73E8;
+}
+
+.nav-news {
+	background-image: url("img/nav/nav-news.png");
+	background-position: 8px 8px;
+}
+
+.nav-maps {
+	background-image: url("img/nav/nav-maps.png");
+	background-position: 8px 6px;
+}
+
+.nav-vids {
+	background-image: url("img/nav/nav-videos.png");
+	background-position: 8px 9px;
+}
+
+.nav-shop {
+	background-image: url("img/nav/nav-shopping.png");
+	background-position: 8px 6px;
+}
+
+.nav-more {
+	background-image: url("img/nav/nav-more.png");
+	background-position: 8px 6px;
+	padding-left: 22px;
+}
+
+/* ---------------------RESULTS--------------------- */
+
+a {
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 0;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 4px 0px;
+}
+
+h6 {
+	color: rgb(32, 33, 36);
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 20px;
+}
+
+h6 span {
+	color: rgb(95, 99, 104);
+	padding-right: 19px;
+	background: url("img/small-arrow-down.png") no-repeat right;
+}
+
+#results {
+	color: rgb(77, 81, 86);
+	font-size: 14px;
+	line-height: 22px;
+	width: 652px;
+	margin-left: 180px;
+}
+
+#result-returns {
+	color: rgb(112, 117, 122);
+	font-size: 14px;
+	line-height: 43px;
+	margin-bottom: 6px;
+}
+
+.result {
+	margin-bottom: 28px;
+}
+
+/* ---------------------FOOTER--------------------- */
