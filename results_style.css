@@ -122,14 +122,18 @@ button {
 	margin-left: 6px;
 }
 
+#nav-shell {
+	width: 100%;
+	border-bottom: 1px solid rgb(235, 235, 235);
+}
+
 #nav-tabs {
 	display: flex;
     align-items: flex-end;
-    justify-content: left;
+    justify-content: space-between;
 	height: 52px;
-	width: 100%;
+	width: 652px;
 	padding-left: 169px;
-	border-bottom: 1px solid #dfe1e5;
 }
 
 .nav-tab {
@@ -138,6 +142,10 @@ button {
 	font-size: 13px;
 	padding: 12px 12px 12px 32px;
 	height: 16px;
+}
+
+#right-nav .nav-tab {
+	padding: 12px 0px 12px 20px;
 }
 
 .active-nav {
@@ -203,6 +211,10 @@ h6 {
 	line-height: 20px;
 }
 
+h1 {
+
+}
+
 h6 span {
 	color: rgb(95, 99, 104);
 	padding-right: 19px;
@@ -226,6 +238,34 @@ h6 span {
 
 .result {
 	margin-bottom: 28px;
+}
+
+#videos {
+	
+}
+
+#result-video {
+
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+.nav-arrow-circle {
+
 }
 
 /* ---------------------FOOTER--------------------- */
