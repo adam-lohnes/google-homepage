@@ -28,7 +28,7 @@ header div {
 	display: inline-block;
 }
 
-/* ---------------------TO BE SORTED (LEGACY?)--------------------- */
+/* =======================TO BE SORTED (LEGACY======================= */
 
 button {
 	background-color: #f2f2f2;
@@ -73,7 +73,7 @@ button {
 	padding: 0 11px;
 }
 
-/* ---------------------TOP SECTIONS--------------------- */
+/* =======================TOP SECTIONS======================= */
 
 #top-left {
     height: 52px;
@@ -91,6 +91,8 @@ button {
 #top-right {
 	padding-right: 12px;
 }
+
+/* ------------SEARCH BAR------------ */
 
 #search-bar {
 	display: flex;
@@ -121,6 +123,8 @@ button {
 	background-color: #dfe1e5;
 	margin-left: 6px;
 }
+
+/* ------------NAVIGATION TABS------------ */
 
 #nav-shell {
 	width: 100%;
@@ -181,7 +185,7 @@ button {
 	padding-left: 22px;
 }
 
-/* ---------------------RESULTS--------------------- */
+/* =======================RESULTS======================= */
 
 a {
 	color: #1a0dab;
@@ -239,6 +243,8 @@ h6 span {
 .result {
 	margin-bottom: 28px;
 }
+
+/* ------------VIDEO RESULTS------------ */
 
 #videos {
 	display: flex;
@@ -317,9 +323,160 @@ h5 {
 	margin-top: 8px;
 }
 
+/* ------------PEOPLE ALSO ASK------------ */
+
 #people-also-ask {
-	display: block;
-	list-style-image: none;
+	margin-bottom: 28px;
 }
 
-/* ---------------------FOOTER--------------------- */
+#people-also-ask ul {
+	border: 1px solid rgb(223, 225, 229);
+	padding: 0px;
+	border-radius: 8px;
+	margin-bottom: 0;
+}
+
+#people-also-ask li {
+	color: rgb(34, 34, 34);
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	height: 44px;
+	width: 650px;
+	border-top: 1px solid rgb(223, 225, 229);
+}
+
+#people-also-ask li img {
+	width: 19px;
+	height: 17px;
+	margin: 14px 16px;
+}
+
+#people-also-ask h1 {
+	padding: 0 0 0 16px;
+	line-height: 44px;
+}
+
+#people-also-ask h3 {
+	margin: 0;
+	padding-left: 16px;
+	line-height: 44px;
+}
+
+#people-also-ask a {
+	color: rgb(112, 117, 122);
+	font-size: 12px;
+	left: 583px;
+	position: relative;
+}
+
+/* ------------IMAGE RESULTS------------ */
+#image-results {
+	margin-bottom: 40px;
+}
+
+#keywords ul {
+	padding: 0;
+	margin: 18px 0 12px 0;
+}
+
+#keywords li {
+	display: inline-block;
+	list-style: none;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	color: rgb(60, 64, 67);
+	border-radius: 17px;
+	border: 1px solid rgb(218, 220, 224);
+	padding: 0 11px;
+	margin-right: 6px;
+}
+
+#keywords-arrow {
+	position: absolute;
+	height: 36px;
+	width: 50px;
+	padding-top: 8px;
+	margin-left: 644px;
+	box-shadow: -40px 0px 17px white;
+}
+
+#images-arrow {
+	margin: 110px 0 0 634px;
+}
+
+#more-images {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+#more-images button {
+	border: none;
+	background-color: white;
+	font-size: 13px;
+	color: rgb(112, 117, 122);
+	margin: 0 0 0 263px;
+	padding: 0;
+}
+
+/* ------------RELATED SEARCH QUERIES------------ */
+#related-searches ul {
+	padding: 0;
+}
+
+#related-searches li {
+	display: inline-block;
+	list-style: none;
+	height: 26px;
+	width: 255px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/* ------------SEARCH PAGE NAVIGATION------------ */
+#result-pages {
+	margin-top: 30px;
+	margin-left: 167px;
+	margin-bottom: 30px;
+}
+
+#result-pages ul {
+	padding-left: 33px;
+	width: 309px;
+	margin: 0;
+	position: relative;
+	top: -7px;
+}
+
+#result-pages li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 4.1px;
+}
+
+#result-pages .next {
+	padding-left: 44px;
+}
+
+#result-pages a {
+	color: rgb(66, 133, 244);
+	text-decoration: none;
+}
+
+#result-pages a:hover {
+	text-decoration: underline;
+}
+
+/* =======================FOOTER======================= */
+
+#footer-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#footer-nav li {
+	display: inline-block;
+	padding-right: 25px; 
+}
